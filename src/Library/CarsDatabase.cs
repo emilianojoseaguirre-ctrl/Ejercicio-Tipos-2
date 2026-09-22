@@ -19,14 +19,6 @@ namespace Ucu.Poo.Repositories
         private List<Car> cars = new List<Car>();
 
         /// <summary>
-        /// Obtiene la lista de autos en la base de datos.
-        /// </summary>
-        public ReadOnlyCollection<Car> Cars
-        {
-            get { return this.cars.AsReadOnly(); }
-        }
-
-        /// <summary>
         /// Agrega un auto a la base de datos.
         /// </summary>
         /// <param name="car">El auto a agregar.</param>
